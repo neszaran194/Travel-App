@@ -34,11 +34,21 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
-  font_awesome_flutter: ^9.0.0
-  google_fonts: ^2.1.0
-  url_launcher: ^6.0.9
-  flutter_launcher_icons: ^0.13.1
+  cupertino_icons: ^1.0.6 #ไอคอน ios
+  font_awesome_flutter: ^10.7.0 #ไอคอน font awesome
+  google_fonts: ^6.2.1 #ฟอนต์ 
+  url_launcher: ^6.3.0 #เปิดลิงค์ 
+  flutter_launcher_icons: ^0.13.1 #ไอคอนแอพพลิเคชั่น
+  shared_preferences: ^2.2.3 #เก็บข้อมูล
+  google_maps_flutter: ^2.7.0 #แผนที่
+  image_picker: ^1.1.2 #เลือกรูป
+  geolocator: ^12.0.0 #ตำแหน่ง
+  intl: ^0.19.0 #format ข้อมูลต่างๆ
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
 
 dev_dependencies:
   flutter_test:
